@@ -14,10 +14,12 @@ class Content {
         res.write("<html lang = 'hu'>");
         res.write("<head>");
         res.write("<title>TeglalapTK</title>");
-        9;
+        const a = 5; // 64 bites lebegőpontos
+        const b = 5;
         res.write("</head>");
         res.write("<body>");
         res.write("<h1>Téglalap területe és kerülete</h1>");
+        res.write(`<h2>a=${a}</h2>`);
         res.write("</body>");
         res.write("</html>");
     }
